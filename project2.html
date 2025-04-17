@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3Forms - Contact Forms for Static Websites</title>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixiconcss"/>
+    <link rel="stylesheet" href="./project2.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo"><i class="ri-css3-line"></i><span class="WEB">WEB3</span>Forms</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Examples</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Help & Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>contact forms for static websites</h1>
+            <h4>receive forms form sudmissions directly in your email inbox <br> without any server or back-end code.its free!</h4> <br>
+            <button class="cta-button">Create your Access Key</button>
+            <div class="code-snippet">
+                <pre class="website">
+&lt;form action="https://api.web3forms.com/submit" method="POST"&gt;
+    &lt;input type="hidden" name="access_key" value="YOUR_ACCESS_KEY"&gt;
+    &lt;input type="text" name="name" required&gt;
+    &lt;input type="email" name="email" required&gt;
+    &lt;textarea name="message" required&gt;&lt;/textarea&gt;
+    &lt;button type="submit"&gt;Submit Form&lt;/button&gt;
+&lt;/form&gt;
+                </pre>
+            </div>
+            <div class="partners">
+                <i class="ri-vercel-line"></i>
+                <img src="ri-vercel-line"alt="Vercel">
+                <img src="netlify-logo.png" alt="Netlify">
+                <img src="aws-logo.png" alt="AWS">
+                <img src="github-logo.png" alt="github">
+                <img src="hostinger-logo.png" alt="Hostinger">
+                <img src="digitalocean-logo.png" alt="DigitalOcean">
+                <img src="godaddy-logo.png" alt="GoDaddy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-card">
+                <h3>No Code</h3>
+                <p>Setting up is easy. Just add Web3Forms to your static website. No backend code like PHP.</p>
+            </div>
+            <div class="feature-card">
+                <h3>No Database</h3>
+                <p>All emails are directly sent to your email address. We don’t store your form submissions.</p>
+            </div>
+            <div class="feature-card">
+                <h3>No Login Needed</h3>
+                <p>Web3Forms is authentication-free, based on an Access Key.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How it works</h2>
+            <h4>Easy as 1, 2, 3.and you're done!</h4>
+            <div class="step">
+                <h3>Step 1:Create Access Key</h3>
+                <p>Access key will be sent to your email address.</p>
+                <input type="email" placeholder="Your email address">
+                <button>Create Access Key</button>
+            </div>
+            <div class="step">
+                <h3>Step 2: Create HTML Form</h3>
+                <p>Create a form in your website with our endpoint mode action.</p>
+                <div class="code-snippet">
+                    <pre class="forms">
+&lt;form action="https://api.web3forms.com/submit" method="POST"&gt;
+    &lt;input type="hidden" name="access_key" value="YOUR_ACCESS_KEY"&gt;
+    &lt;input type="text" name="name" required&gt;
+    &lt;input type="email" name="email" required&gt;
+    &lt;textarea name="message" required&gt;&lt;/textarea&gt;
+    &lt;button type="submit"&gt;Submit Form&lt;/button&gt;
+&lt;/form&gt;
+                    </pre>
+                </div>
+            </div>
+            <div class="step">
+                <h3>Step 3: Add Access Key</h3>
+                <p>Add your access key to start receiving email submissions.</p>
+                <div class="code-snippet">
+                    <pre class="access">
+&lt;input type="hidden" name="access_key" value="YOUR_ACCESS_KEY"&gt;
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <img src="https://plus.unsplash.com/premium_photo-1723802491672-e6a5b5be29f3?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="mick">
+            <blockquote>
+                <p>"I can’t believe I pulled off my landing page with a working lead generation form so fast. I used to spend hundreds of dollars everytime just for the form."</p>
+                <cite>Michael, Indie Hacker</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <p>Free Forever. Only Pay for Extra Features.</p>
+            <div class="pricing-plans">
+                <div class="plan">
+                    <h3>Free</h3>
+                    <ul>
+                        <li>Unlimited Forms</li>
+                        <li>1000 Submissions</li>
+                        <li>Unlimited Domains</li>
+                        <li>Basic Spam Protection</li>
+                        <li>All Features</li
+                    </ul>
+                    <button>Save instructions</button>
+                    <h5>no signup needed</h5>
+                </div>
+                <div class="plan">
+                    <h3>Pro - $49/year</h3>
+                    <ul>
+                        <li>Everything in Free Plan</li>
+                        <li>Unlimited Submissions</li>
+                        <li>Custom Email Templates</li>
+                        <li>Custom Redirects</li>
+                        <li>File Attachments</li>
+                        <li>Captcha Integration</li>
+                        <li>API & Webhooks</li>
+                    </ul>
+                    <button>Pro - Save 80% Now!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h4 class="fq">FAQ <br class="Questions">Frequently Asked Questions</h4> 
+            <div class="faq-item">
+                <h3>How do Web3Forms work?</h3> <br>
+                <p>Web3Forms allows you to receive HTML form submissions from your website. <br> there is no basckend code involved. you only need to put two lines and  <br>it's comparible with your current tools and technologies. </p> <br>
+                <h3>Is this free plan really free</h3> <br>
+                <p>YES. You can use the free plan as long as you needed without even creating an account.  <br>Only use your email address to get form submissions. However we might <br> suspend your account if we detect asny abuse or misuse of this device</p> <br>
+                <h3>Do you store data submitted through my form</h3> <br>
+                <p>Form data that you need is the endpoint is forwarded to your email address. <br> We dont store any data from yur form yor fotms on your server.  <br>however we might store the logs in Amazon Web Services for debugging purposes.</p> <br>
+                <h3>Is my email address secure with you ?</h3> <br>
+                <p>Yes, we will not share your submission with any third party. We use your email <br> to send data submitted from the form to your email. However, <br> We may contact you to share updatws and information about our Services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h2>Convinced?</h2>
+            <p>Why you waiting? Setup your contact forms in minutes.</p>
+            <button class="cta-button">Create your Access Key</button>
+            <p>&copy; 2020. web3forms</p>
+        </div>
+    </footer>
+</body>
+</html>
